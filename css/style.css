@@ -12,12 +12,20 @@ li, a, button{
   text-decoration: none;
 }
 
+
 header{
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   padding: 20px 5%;
   position: sticky;
+}
+
+.logo{
+  cursor: pointer;
+  margin-right: auto;
+  width: 60px;
+  height: 65px;
 }
 
 .nav-links{
@@ -35,6 +43,21 @@ header{
 
 .nav-links li a:hover{
   color: #5E88BF;
+}
+
+button{
+  font-weight: bold;
+  margin-left: 20px;
+  padding: 3px 25px;
+  background-color: #C35C5C;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover{
+  background-color: #C15353;
 }
 
 footer{
