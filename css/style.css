@@ -2,6 +2,7 @@
 
 *{
   background-color: #F1EFE8;
+  margin: 0;
 }
 
 li, a, button{
@@ -18,7 +19,8 @@ header{
   justify-content: flex-end;
   align-items: center;
   padding: 20px 5%;
-  position: sticky;
+  width: 90%;
+  position: fixed;
 }
 
 .logo{
@@ -58,6 +60,24 @@ button{
 
 button:hover{
   background-color: #C15353;
+}
+
+.boks{
+  width: 100%;
+  height: 500px;
+  background-color: #676767;
+}
+
+.infografik{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.infografik a{
+  width: 300px;
+  height: 400px;
 }
 
 footer{
