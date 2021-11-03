@@ -2,6 +2,7 @@
 
 *{
   background-color: #F1EFE8;
+  margin: 0;
 }
 
 li, a, button{
@@ -24,8 +25,9 @@ header{
 .logo{
   cursor: pointer;
   margin-right: auto;
-  width: 60px;
-  height: 65px;
+  width: 300px;
+  height: 60px;
+  padding-top: 15px;
 }
 
 .nav-links{
@@ -93,13 +95,6 @@ button:hover{
   height: 350px;
 }
 
-.h1{
-  font-family: Poppins;
-  font-size: 15px;
-  color: white;
-  padding-left: 20%;
-  padding-top: 80px;
-}
 
 .h2{
   font-family: Poppins;
