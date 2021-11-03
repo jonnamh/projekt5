@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
 *{
-  background-color: #F1EFE8;
   margin: 0;
+  font-family: Poppins;
 }
 
+/* Navbar*/
 li, a, button{
   font-family: Poppins;
   font-weight: regular 400;
@@ -15,6 +16,7 @@ li, a, button{
 
 
 header{
+    background-color: #F1EFE8;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -26,8 +28,9 @@ header{
 .logo{
   cursor: pointer;
   margin-right: auto;
-  width: 60px;
-  height: 65px;
+  width: 300px;
+  height: 60px;
+  padding-top: 15px;
 }
 
 .nav-links{
@@ -61,23 +64,78 @@ button{
 button:hover{
   background-color: #C15353;
 }
+/* Nav bar slut*/
 
+/* Kommende video*/
 .boks{
   width: 100%;
-  height: 500px;
+  height: 600px;
   background-color: #676767;
+}
+/* kommende video slut */
+
+/* infografik + tekstbokse */
+.container1{
+  display: flex;
+  justify-content: space-around;
+  background-color: #F1EFE8;
 }
 
 .infografik{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding: 10px;
+  width: 300px;
+  height: 300px;
+  padding-top: 150px;
+  padding-bottom: 30px;
 }
 
-.infografik a{
+.infografik img{
+}
+
+.container2{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 150px;
+  background-color: #F1EFE8;
+}
+
+.tekst-boks1{
   width: 300px;
+  background-color: #405C84;
+  padding: 10px 25px;
+  border-radius: 10px;
+}
+
+.tekst-boks1 h3{
+  color: #FFF4F4;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.tekst-boks1 p{
+  color: #FFF4F4;
+  font-weight: regular 400;
+  padding-bottom: 10px;
+}
+/* infografik + tekstbokse  */
+
+/* Kundeberetninger start */
+.container3{
+  display: flex;
+  justify-content: space-around;
+  background-color: #BEBEBE;
+}
+
+.kundeberetninger{
+  background-color: #BEBEBE;
+  width: 100%;
   height: 400px;
+  padding: 40px;
 }
 
 footer{
