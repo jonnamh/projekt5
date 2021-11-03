@@ -97,13 +97,85 @@ footer{
   justify-content: space-around;
 }
 
-.tekstboksen2{
-  font-style: poppins;
-  
+.tekstboksen2 h2{
+  font-size: 25px;
+  font-family: poppins;
+  margin-top: 50px;
+  margin-left: 175px;
+  text-decoration: underline;
 }
 
-.nyhedside1{
-  width: 350px;
-  height: 250px;
+.tekstboksen2 p{
+  font-size: 15px;
+  font-family: poppins;
+  margin-left: 175px;
+  line-height: 35px;
+  text-align: justify;
+  text-justify: inter-word;
+
+}
+
+/*anden boks med nyhed*/
+.container2{
+  display: flex;
+  justify-content: space-around;
+}
+
+.tekstboksen2 h2{
+  font-size: 25px;
+  font-family: poppins;
+  margin-top: 50px;
+  margin-left: 175px;
+  text-decoration: underline;
+}
+
+.tekstboksen2 p{
+  font-size: 15px;
+  font-family: poppins;
+  margin-left: 175px;
+  line-height: 35px;
+  text-align: justify;
+  text-justify: inter-word;
+
+}
+
+.nyhedbillede1{
+  width: 300px;
+  height: 200px;
   padding: 50px;
+  margin-right: 150px;
+}
+
+.nyhedbillede2{
+  width: 300px;
+  height: 200px;
+  padding: 50px;
+  margin-right: 150px;
+}
+
+.nyhedbillede3{
+  width: 300px;
+  height: 200px;
+  padding: 50px;
+  margin-right: 150px;
+}
+
+
+
+button1{
+  font-weight: bold;
+  padding: 3px 25px;
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 10px;
+  transition: all 0.3s ease 0s;
+  font-size: 15px;
+  margin-left: 175px;
+  margin-bottom: 50px;
+}
+
+.flerenyheder{
+  text-align: center;
+  font-family: poppins;
+  margin-bottom: 150px;
 }
