@@ -62,13 +62,6 @@ button:hover{
   background-color: #C15353;
 }
 
-.boks{
-  width: 100%;
-  height: 500px;
-  background-color: #676767;
-  margin-top: -25%;
-}
-
 .infografik{
   display: flex;
   flex-direction: row;
