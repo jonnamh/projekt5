@@ -170,3 +170,77 @@ button:hover{
   padding-top: 40px;
   padding-bottom: 40px;
 }
+
+/* støt start*/
+.container4{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F1EFE8;
+}
+
+.stoet{
+  background-color: #F1EFE8;
+  height: auto;
+  width: 500px;
+  padding: 60px 90px 60px 90px;
+}
+.stoet h1{
+  margin: auto;
+
+}
+
+.stoet p{
+  line-height: 30px;
+  width: 350px;
+  margin: auto;
+  text-align: justify;
+  text-justify: inter-word;
+}
+/*støt slut*/
+footer{
+  height: auto;
+  background-color: #172C49
+}
+
+
+.container5{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: auto;
+}
+
+
+
+.boksen{
+  display: flex;
+  flex-direction: column;
+  color: #FFF4F4;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.boksen .logo-footer{
+  width: 160px;
+  height: 100px;
+  padding-top: 60px;
+}
+
+.tilmeld{
+  width: 100%;
+  background-color: #C35C5C;
+  border-radius: 10px;
+}
+
+.cta3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px 25px;
+  color: #FFF4F4;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+/* footer */
