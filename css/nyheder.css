@@ -65,10 +65,10 @@ button:hover{
 footer{
   background-color: #172C49;
 }
-
+/*overskrift på siden*/
 .container{
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .tekstboksen{
@@ -90,3 +90,20 @@ footer{
   font-size: 45px;
   text-align: center;
   }
+
+  /*første boks med nyhed*/
+.container2{
+  display: flex;
+  justify-content: space-around;
+}
+
+.tekstboksen2{
+  font-style: poppins;
+  
+}
+
+.nyhedside1{
+  width: 350px;
+  height: 250px;
+  padding: 50px;
+}

@@ -92,6 +92,9 @@ button:hover{
 }
 
 .infografik img{
+  margin-left: 90px;
+  margin-right: 90px;
+
 }
 
 .container2{
@@ -127,17 +130,24 @@ button:hover{
 /* Kundeberetninger start */
 .container3{
   display: flex;
-  justify-content: space-around;
+  align-items: center;
+  justify-content: center;
   background-color: #BEBEBE;
 }
 
 .kundeberetninger{
-  background-color: #BEBEBE;
-  width: 100%;
   height: 400px;
-  padding: 40px;
+  width: 400px;
+  padding: 10px 100px;
 }
 
-footer{
-  background-color: #172C49;
+.kundeberetninger h1{
+  padding-top: 40px;
+  padding-right: 40px;
+}
+
+.billede{
+  width: 400px;
+  height: 350px;
+  padding-top: 40px;
 }
