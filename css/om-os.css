@@ -170,12 +170,22 @@ footer{
   margin-top: -5%;
 }
 
+.tekstboksen4{
+  display: flex;
+  text-align: center;
+}
 .tekstboksen4 h2{
   width: 1000px;
   color: black;
+  margin: auto;
   font-weight: bold 400;
   font-family: poppins;
   font-size: 45px;
   text-align: center;
   float: center;
+}
+
+.spons img{
+  margin-left: 90px;
+  margin-right: 90px;
 }
