@@ -90,3 +90,77 @@ footer{
   font-size: 30px;
   text-align: center;
   }
+
+  .portfoliobaggrundskasse{
+    height: 425px;
+    width: auto;
+    background-color: #E8EAE1;
+  }
+
+
+  .tekstkassekontakt{
+   background-color: #FAFAFA;
+   width: 350px;
+   height: 200px;
+   margin-left: 700px;
+   margin-right: 500px;
+  }
+
+
+   * {
+     box-sizing: border-box;
+   }
+
+
+   input[type=text], select, textarea {
+     width: 100%;
+     padding: 12px;
+     border: 1px solid #ccc;
+     margin-top: 6px;
+     margin-bottom: 16px;
+     resize: vertical;
+     font-family: arial;
+
+   }
+
+   input[type=submit] {
+     background-color: #C3C8AF;
+     color: white;
+     padding: 12px 20px;
+     border: none;
+     cursor: pointer;
+     font-family: arial;
+     color: #3B4B61
+
+   }
+
+   input[type=submit]:hover {
+     background-color: #45a049;
+   }
+
+   .container {
+     border-radius: 5px;
+     padding: 10px;
+     font-family: arial;
+     color: #3B4B61;
+   }
+
+   .column {
+     float: left;
+     width: 50%;
+     margin-top: 6px;
+     padding: 20px;
+   }
+
+   .row:after {
+     content: "";
+     display: table;
+     clear: both;
+   }
+
+   @media screen and (max-width: 600px) {
+     .column, input[type=submit] {
+       width: 100%;
+       margin-top: 0;
+     }
+   }
