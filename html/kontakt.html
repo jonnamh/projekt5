@@ -33,17 +33,24 @@
           <div class="column">
             <div class="kontaktformular">
               <h1>Kontaktformular</h1>
-              <h2>Er du en virksomhed eller privat?</h2>
+              <div class="kasse2">
+                <h3>Privat?</h3>
+                </div>
+                <div class="kasse1">
+                  <h4>Virksomhed?</h4>
 
+                </div>
+              <h2>Er du en virksomhed eller privat?</h2>
             </div>
+
             <form action="/action_page.php">
-              <label for="fname">Fornavn</label>
-              <input type="text" id="fname" name="firstname" placeholder="Dit navn..">
-              <label for="lname">Efternavn</label>
-              <input type="text" id="lname" name="lastname" placeholder="Dit efternavn..">
+              <label for="fname">Navn på Virksomhed</label>
+              <input type="text" id="fname" name="firstname" placeholder="Navn på virksomhed..">
+              <label for="subject">Telefon</label>
+              <input type="text" id="lname" name="lastname" placeholder="Dit telefonnummer..">
               <label for="subject">Email</label>
               <input type="text" id="lname" name="lastname" placeholder="Din email..">
-              <label for="subject">Emne</label>
+              <label for="subject">Besked</label>
               <textarea id="subject" name="subject" placeholder="Skriv noget.." style="height:170px"></textarea>
               <input type="submit" value="Send">
             </form>
