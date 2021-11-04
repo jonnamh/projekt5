@@ -33,34 +33,53 @@
         <div class="row">
           <div class="column">
             <div class="kontaktformular">
+              <div class="kasse1">
+                <h3>Privat?</h3>
+                </div>
+              <div class="kasse2">
+                <h4>Virksomhed?</h4>
+              </div>
+              </div>
               <h1>Støt som virksomhed</h1>
-
             </div>
             <form action="/action_page.php">
-              <label for="fname">Beløb</label>
-              <input type="text" id="fname" name="firstname" placeholder="Dit beløb..">
+              <label for="fname">Beløb </label>
+              <br>
+              <input type="text" id="fname" name="firstname"  placeholder="Dit beløb.." size="100">
+              <br>
+              <br>
+              <div class="stoet1">
+                <div class="kasse3">
+                  <h3>Støt månedligt</h3>
+                  </div>
+                <div class="kasse4">
+                  <h4>Enkel donation</h4>
+                </div>
+              </div>
+              <br>
+              <br>
+              <br>
               <label for="lname">Navn på virksomhed</label>
-              <input type="text" id="lname" name="lastname" placeholder="Navn på virksomhed..">
-              <label for="subject">Telefon</label>
-              <input type="text" id="lname" name="lastname" placeholder="Dit telefonnummer..">
-              <label for="subject">Email</label>
-              <input type="text" id="lname" name="lastname" placeholder="Email..">
-              <label for="subject">Addresse</label>
-              <input type="text" id="lname" name="lastname" placeholder="Addresse..">
-              <label for="subject">Postnummer</label>
-              <input type="text" id="lname" name="lastname" placeholder="Postnummer..">
-              <label for="subject">By</label>
-              <input type="text" id="lname" name="lastname" placeholder="By..">
-              <label for="subject">Kontonummer</label>
-              <input type="text" id="lname" name="lastname" placeholder="Kontonummer..">
-              <label for="subject">Udløbsår</label>
-              <input type="text" id="lname" name="lastname" placeholder="Udløbsår..">
-              <label for="subject">Udløbsmåned</label>
-              <input type="text" id="lname" name="lastname" placeholder="Udløbsmåned..">
-              <label for="subject">CVR</label>
-              <input type="text" id="lname" name="lastname" placeholder="CVR..">
+              <br>
+              <input type="text" id="lname" name="lastname" placeholder="Navn på virksomhed.." size="100">
+                <div class="babba">
+                  <div class="barn2">
+                  <label for="subject">Telefon</label>
+                  <input type="text" id="tlf" name="lastname" placeholder="Dit telefonnummer.." size="40">
 
-              <input type="submit" value="Send">
+                  <label for="subject">Email</label>
+                  <input type="text" id="email" name="lastname" placeholder="Email.." size="40">
+                  </div>
+
+                  <div class="barn2">
+                  <label for="subject">Addresse</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Postnummer.." siza="40">
+                  <label for="subject">By</label>
+                  <input type="text" id="lname" name="lastname" placeholder="By.." size="40">
+
+                  </div>
+                </div>
+              <input class="send" type="submit" value="Send">
             </form>
           </div>
         </div>
@@ -142,8 +161,7 @@
           <br>
 
           <div class="inputBox">
-            <input type="text" name="" required="required">
-            <span> Email addresse </span>
+            <input type="text" id="email" name="email" placeholder="Email addresse.." size="43">
           </div>
           <br>
           <div class="tilmeld">
@@ -154,3 +172,13 @@
     </footer>
   </body>
 </html>
+
+<!--
+<label for="subject">Kontonummer</label>
+<input type="text" id="lname" name="lastname" placeholder="Kontonummer..">
+<label for="subject">Udløbsår</label>
+<input type="text" id="lname" name="lastname" placeholder="Udløbsår..">
+<label for="subject">Udløbsmåned</label>
+<input type="text" id="lname" name="lastname" placeholder="Udløbsmåned..">
+<label for="subject">CVR</label>
+<input type="text" id="lname" name="lastname" placeholder="CVR..">
