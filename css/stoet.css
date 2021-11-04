@@ -72,25 +72,20 @@ button:hover{
   justify-content: space-around;
 }
 
-.container2{
-  display: flex;
-  background-color: #F1EFE8;
-}
-
-
 .row{
   background-color: #405C84;
   border-radius: 10px;
   margin: auto;
-  width: 50%;
+  width: 75%;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 75px;
 }
 
 .tekstboksen{
   width: 100%;
-  height: 250px;
+  height: 200px;
   padding: 10px 25px;
   background-color: #E2E0DB;
   display: flex;
@@ -102,7 +97,7 @@ button:hover{
 .tekstboksen h1{
   width: 1000px;
   color: black;
-  font-weight: bold 400;
+  font-weight: bold;
   background-color: #E2E0DB;
   font-family: poppins;
   font-size: 30px;
@@ -111,6 +106,9 @@ button:hover{
 
 .tekstboksen p{
   background-color: #E2E0DB;
+  font-weight: normal;
+  font-family: poppins;
+  font-size: 20px;
 }
 
 input[type=text], select, textarea {
@@ -120,18 +118,21 @@ input[type=text], select, textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
-  font-family: arial;
+  font-family: poppins;
+  border-radius: 10px;
 
 }
 
 input[type=submit] {
-  background-color: #C3C8AF;
+  background-color: #ffffff;
   color: white;
   padding: 12px 20px;
   border: none;
   cursor: pointer;
-  font-family: arial;
-  color: #3B4B61
+  font-family: poppins;
+  font-weight: bold;
+  color: #3B4B61;
+  border-radius: 5px;
 
 }
 
@@ -142,13 +143,12 @@ input[type=submit]:hover {
 .container2{
   border-radius: 5px;
   padding: 10px;
-  font-family: arial;
-  color: #3B4B61;
+  font-family: poppins;
+  color: #FFFFFF;
 }
 
 .column {
-  float: left;
-  width: 50%;
+  width: 75%;
   margin-top: 6px;
   padding: 20px;
 }
@@ -158,13 +158,64 @@ input[type=submit]:hover {
   display: table;
   clear: both;
 }
+
+.kontaktformular h1{
+  font-family: poppins;
+  font-weight: bold;
+  font-size: 30px;
+  padding-bottom: 15px;
+}
+
+.kontaktformular h2 {
+  font-family: poppins;
+  font-weight: normal;
+  font-size: 15px;
+  padding-bottom: 30px;
+}
 /* støt formularen */
 
 .container3{
   display: flex;
-  align-items: center;
   justify-content: center;
   background-color: #C35C5C
+}
+
+.far{
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.barn{
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.overskrift{
+  color: #FFF4F4;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 500px;
+}
+
+.tekst-boks1{
+  width: 350px;
+  padding: 10px 25px;
+  border-radius: 10px;
+  padding-bottom: 90px;
+}
+
+.tekst-boks1 p{
+  color: #FFF4F4;
+  line-height: 30px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.tekst-boks1 h3{
+  color: #FFF4F4;
 }
 
 
@@ -180,8 +231,6 @@ footer{
   justify-content: space-around;
   margin: auto;
 }
-
-
 
 .boksen{
   display: flex;
@@ -212,5 +261,22 @@ footer{
   border: none;
   cursor: pointer;
   transition: all 0.3s ease 0s;
+}
+
+.inputBox{
+  width: 100%;
+  background-color: #C35C5C;
+  border-radius: 10px;
+}
+
+.email{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px 25px;
+  color: #FFF4F4;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
 }
 /* footer */
