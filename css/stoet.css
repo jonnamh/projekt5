@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
 *{
-
+  font-family: poppins;
   margin: 0;
 }
 
+/* navbar */
 li, a, button{
   font-family: Poppins;
   font-weight: regular 400;
@@ -18,7 +19,7 @@ header{
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 20px 5%;  
+  padding: 20px 5%;
   background-color: #F1EFE8;
   position: sticky;
 }
@@ -62,10 +63,9 @@ button{
 button:hover{
   background-color: #C15353;
 }
+/*navbar slut*/
 
-footer{
-  background-color: #172C49;
-}
+
 /*overskrift på siden*/
 .container{
   display: flex;
@@ -158,3 +158,59 @@ input[type=submit]:hover {
   display: table;
   clear: both;
 }
+/* støt formularen */
+
+.container3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #C35C5C
+}
+
+
+/* footer */
+footer{
+  height: auto;
+  background-color: #172C49
+}
+
+.container5{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: auto;
+}
+
+
+
+.boksen{
+  display: flex;
+  flex-direction: column;
+  color: #FFF4F4;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.boksen .logo-footer{
+  width: 160px;
+  height: 100px;
+  padding-top: 60px;
+}
+
+.tilmeld{
+  width: 100%;
+  background-color: #C35C5C;
+  border-radius: 10px;
+}
+
+.cta3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px 25px;
+  color: #FFF4F4;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+/* footer */
