@@ -109,7 +109,9 @@ footer{
   font-family: poppins;
   margin-top: 50px;
   margin-left: 175px;
+  margin-top: 10%;
   text-decoration: underline;
+
 }
 
 .tekstboksen2 p{
@@ -119,6 +121,7 @@ footer{
   line-height: 35px;
   text-align: justify;
   text-justify: inter-word;
+  margin-top: 3%;
 
 }
 
@@ -132,7 +135,7 @@ footer{
   font-size: 25px;
   font-family: poppins;
   margin-top: 50px;
-  margin-right: 600px;
+  margin-right: 674px;
   text-decoration: underline;
   float: right;
 
@@ -147,13 +150,15 @@ footer{
   text-align: justify;
   text-justify: inter-word;
   float: right;
+  margin-top: 4%;
 }
 
 .omosbillede2{
-  width: 450px;
-  height: 350px;
+  width: 400px;
+  height: 300px;
   padding: 50px;
   margin-left: 125px;
+  margin-top: -5%;
 }
 
 
@@ -162,11 +167,15 @@ footer{
   height: 300px;
   padding: 50px;
   margin-right: 150px;
+  margin-top: -5%;
 }
 
-
-.flerenyheder{
-  text-align: center;
+.tekstboksen4 h2{
+  width: 1000px;
+  color: black;
+  font-weight: bold 400;
   font-family: poppins;
-  margin-bottom: 150px;
+  font-size: 45px;
+  text-align: center;
+  float: center;
 }
