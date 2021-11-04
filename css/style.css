@@ -244,19 +244,12 @@ footer{
   transition: all 0.3s ease 0s;
 }
 
-.inputBox{
-  width: 100%;
-  background-color: #EDEDED;
-  border-radius: 10px;
-}
-
 .email{
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 8px 25px;
   width: 85%;
-  color: black;
   border: none;
   cursor: pointer;
   border-radius: 10px;
