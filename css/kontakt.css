@@ -2,7 +2,7 @@
 
 *{
   margin: 0;
-}
+  }
 
 li, a, button{
   font-family: Poppins;
@@ -10,7 +10,7 @@ li, a, button{
   font-size: 20px;
   color: #000000;
   text-decoration: none;
-}
+  }
 
 
 header{
@@ -20,7 +20,7 @@ header{
   padding: 20px 5%;
   background-color: #F1EFE8;
   position: sticky;
-}
+  }
 
 .logo{
   cursor: pointer;
@@ -28,24 +28,24 @@ header{
   width: 300px;
   height: 60px;
   padding-top: 15px;
-}
+  }
 
 .nav-links{
   list-style: none;
-}
+  }
 
 .nav-links li{
   display: inline-block;
   padding: 0px 40px;
-}
+  }
 
 .nav-links li a{
   transition: all.0.3 ease 0s;
-}
+  }
 
 .nav-links li a:hover{
   color: #5E88BF;
-}
+  }
 
 button{
   font-weight: bold;
@@ -56,20 +56,20 @@ button{
   border-radius: 10px;
   cursor: pointer;
   transition: all 0.3s ease 0s;
-}
+  }
 
 button:hover{
   background-color: #C15353;
-}
+  }
 
 footer{
   background-color: #172C49;
-}
+  }
 /*overskrift på siden*/
 .container{
   display: flex;
   justify-content: space-around;
-}
+  }
 
 
 .row{
@@ -81,7 +81,11 @@ footer{
   align-items: center;
   justify-content: center;
   margin-top: 75px;
-}
+  margin-bottom: 250px;
+  padding-bottom: 13px;
+
+
+  }
 
 .tekstboksen{
   width: 100%;
@@ -92,7 +96,7 @@ footer{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
+  }
 
 .tekstboksen h1{
   width: 1000px;
@@ -109,7 +113,7 @@ footer{
   font-weight: normal;
   font-family: poppins;
   font-size: 20px;
-}
+  }
 
 input[type=text], select, textarea {
   width: 100%;
@@ -120,8 +124,7 @@ input[type=text], select, textarea {
   resize: vertical;
   font-family: poppins;
   border-radius: 10px;
-
-}
+  }
 
 input[type=submit] {
   background-color: #ffffff;
@@ -133,42 +136,67 @@ input[type=submit] {
   font-weight: bold;
   color: #3B4B61;
   border-radius: 10px;
-
-}
+  }
 
 input[type=submit]:hover {
   background-color: #45a049;
-}
+  }
 
 .container2{
   border-radius: 5px;
   padding: 10px;
   font-family: poppins;
   color: #FFFFFF;
-}
+  background-color: #F1EFE8;
+  }
 
 .column {
   width: 75%;
   margin-top: 6px;
   padding: 20px;
-}
+  }
 
 .row:after {
   content: "";
   display: table;
   clear: both;
-}
+  }
 
 .kontaktformular h1{
   font-family: poppins;
   font-weight: bold;
   font-size: 30px;
-  padding-bottom: 15px;
-}
+  padding-bottom: 50px;
+  }
 
 .kontaktformular h2 {
   font-family: poppins;
   font-weight: normal;
   font-size: 15px;
   padding-bottom: 30px;
-}
+  }
+
+  .kasse1 {
+    width: 150px;
+    height: 40px;
+    background-color: #284773;
+    float: right;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    align-items: center;
+  }
+
+  .kasse2 {
+    width: 150px;
+    height: 40px;
+    background-color: #FFFFFF;
+    float: right;
+    border-radius: 0px 10px 10px 0px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    align-items: center;
+  }
