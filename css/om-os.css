@@ -183,9 +183,26 @@ footer{
   font-size: 45px;
   text-align: center;
   float: center;
+  margin-top: 5%;
 }
 
+.container4{
+display: flex;
+justify-content: center;
+margin: auto;
+margin-left: 10%;
+margin-top: 5%;
+}
+
+.container5{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-left: 5%;
+  margin-top: 5%;
+  }
+
 .spons img{
-  margin-left: 90px;
-  margin-right: 90px;
+  margin-right: 50px;
+  margin-top: auto;
 }
