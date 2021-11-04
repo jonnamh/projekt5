@@ -62,34 +62,111 @@ button:hover{
   background-color: #C15353;
 }
 
-.infografik{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding: 10px;
-  margin-top: 10%;
-}
-
-.infografik img.a{
-  width: 350px;
-  height: 350px;
-  margin: 0;
-  margin-left: inherit;
-}
-
-.infografik img.b{
-  width: 350px;
-  height: 350px;
-
-}
-
-.infografik img.c{
-  width: 350px;
-  height: 350px;
-}
-
-
-
 footer{
   background-color: #172C49;
+}
+/*overskrift på siden*/
+.container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.tekstboksen{
+  width: 100%;
+  height: 250px;
+  padding: 10px 25px;
+  background-color: #E2E0DB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tekstboksen h1{
+  width: 1000px;
+  color: black;
+  font-weight: bold 400;
+  background-color: #E2E0DB;
+  font-family: poppins;
+  font-size: 45px;
+  text-align: center;
+  }
+
+  /*første boks med nyhed*/
+.container2{
+  display: flex;
+  justify-content: space-around;
+}
+
+.omosbillede1{
+  width: 400px;
+  height: 300px;
+  padding: 50px;
+  margin-right: 150px;
+}
+
+.tekstboksen2 h2{
+  font-size: 25px;
+  font-family: poppins;
+  margin-top: 50px;
+  margin-left: 175px;
+  text-decoration: underline;
+}
+
+.tekstboksen2 p{
+  font-size: 15px;
+  font-family: poppins;
+  margin-left: 175px;
+  line-height: 35px;
+  text-align: justify;
+  text-justify: inter-word;
+
+}
+
+/*anden boks med nyhed*/
+.container3{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.tekstboksen3 h2{
+  font-size: 25px;
+  font-family: poppins;
+  margin-top: 50px;
+  margin-right: 600px;
+  text-decoration: underline;
+  float: right;
+
+}
+
+.tekstboksen3 p{
+  font-size: 15px;
+  font-family: poppins;
+  margin-left: 32px;
+  margin-right: 200px;
+  line-height: 35px;
+  text-align: justify;
+  text-justify: inter-word;
+  float: right;
+}
+
+.omosbillede2{
+  width: 450px;
+  height: 350px;
+  padding: 50px;
+  margin-left: 125px;
+}
+
+
+.omosbillede3{
+  width: 400px;
+  height: 300px;
+  padding: 50px;
+  margin-right: 150px;
+}
+
+
+.flerenyheder{
+  text-align: center;
+  font-family: poppins;
+  margin-bottom: 150px;
 }
