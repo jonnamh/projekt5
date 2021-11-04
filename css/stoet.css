@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
 *{
-  background-color: #F1EFE8;
+
+  margin: 0;
 }
 
 li, a, button{
@@ -17,15 +18,17 @@ header{
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 20px 5%;
+  padding: 20px 5%;  
+  background-color: #F1EFE8;
   position: sticky;
 }
 
 .logo{
   cursor: pointer;
   margin-right: auto;
-  width: 60px;
-  height: 65px;
+  width: 300px;
+  height: 60px;
+  padding-top: 15px;
 }
 
 .nav-links{
@@ -62,4 +65,96 @@ button:hover{
 
 footer{
   background-color: #172C49;
+}
+/*overskrift på siden*/
+.container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.container2{
+  display: flex;
+  background-color: #F1EFE8;
+}
+
+
+.row{
+  background-color: #405C84;
+  border-radius: 10px;
+  margin: auto;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tekstboksen{
+  width: 100%;
+  height: 250px;
+  padding: 10px 25px;
+  background-color: #E2E0DB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tekstboksen h1{
+  width: 1000px;
+  color: black;
+  font-weight: bold 400;
+  background-color: #E2E0DB;
+  font-family: poppins;
+  font-size: 30px;
+  text-align: center;
+  }
+
+.teksboksen p{
+  background-color: #E2E0DB;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: arial;
+
+}
+
+input[type=submit] {
+  background-color: #C3C8AF;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  font-family: arial;
+  color: #3B4B61
+
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container2{
+  border-radius: 5px;
+  padding: 10px;
+  font-family: arial;
+  color: #3B4B61;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }

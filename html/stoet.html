@@ -4,11 +4,11 @@
     <meta charset="utf-8">
     <title>Retshjælpen Fyns støtteforening</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/stoet.css">
   </head>
   <body>
     <header>
-      <img class="logo" src="../img/logo.png" alt="logo">
+      <img class="logo" src="../img/nye-logo.png" alt="logo">
       <nav>
         <ul class="nav-links">
           <li><a href="../nyheder.html">Nyheder</a></li>
@@ -20,11 +20,34 @@
     </header>
 
     <main>
+      <div class="container">
+        <div class="tekstboksen">
+          <h1>Har du lyst til at bidrage med et månedligt <br> eller
+            give en donation til vores støtteforening? </h1>
+          <p> Tag første skridt og udfyld formularen nedenfor! </p>
+        </div>
+      </div>
+
+      <div class="container2">
+        <div class="row">
+          <div class="column">
+            <form action="/action_page.php">
+              <label for="fname">Fornavn</label>
+              <input type="text" id="fname" name="firstname" placeholder="Dit navn..">
+              <label for="lname">Efternavn</label>
+              <input type="text" id="lname" name="lastname" placeholder="Dit efternavn..">
+              <label for="subject">Email</label>
+              <input type="text" id="lname" name="lastname" placeholder="Din email..">
+              <label for="subject">Emne</label>
+              <textarea id="subject" name="subject" placeholder="Skriv noget.." style="height:170px"></textarea>
+              <input type="submit" value="Send">
+            </form>
+          </div>
+        </div>  
+      </div>
+
+
 
     </main>
-
-    <footer>
-
-    </footer>
   </body>
 </html>
