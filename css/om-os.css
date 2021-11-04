@@ -190,7 +190,7 @@ footer{
 display: flex;
 justify-content: center;
 margin: auto;
-margin-left: 10%;
+margin-left: 5%;
 margin-top: 5%;
 }
 
@@ -198,11 +198,12 @@ margin-top: 5%;
   display: flex;
   justify-content: center;
   margin: auto;
-  margin-left: 5%;
+  margin-left: 9%;
   margin-top: 5%;
   }
 
 .spons img{
   margin-right: 50px;
   margin-top: auto;
+  padding: inherit;
 }
