@@ -54,6 +54,7 @@ button{
   padding: 3px 25px;
   background-color: #C35C5C;
   border: none;
+  color: white;
   border-radius: 10px;
   cursor: pointer;
   transition: all 0.3s ease 0s;

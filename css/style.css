@@ -57,6 +57,7 @@ button{
   background-color: #C35C5C;
   border: none;
   border-radius: 10px;
+  color: white;
   cursor: pointer;
   transition: all 0.3s ease 0s;
 }
@@ -184,10 +185,18 @@ button:hover{
   height: auto;
   width: 500px;
   padding: 60px 90px 60px 90px;
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
 }
 .stoet h1{
   margin: auto;
 
+}
+
+.giraf {
+  width: 100px;
+  align-items: center;
 }
 
 .stoet p{
