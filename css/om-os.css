@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
 *{
-  background-color: #F1EFE8;
+  font-family: poppins;
   margin: 0;
 }
 
@@ -20,6 +20,7 @@ header{
   align-items: center;
   padding: 20px 5%;
   position: sticky;
+  background-color: #F1EFE8;
 }
 
 .logo{
@@ -95,6 +96,11 @@ footer{
 .container2{
   display: flex;
   justify-content: space-around;
+  background-color: #F1EFE8;
+}
+
+.tekstboksen2{
+  background-color: #F1EFE8;
 }
 
 .omosbillede1{
@@ -129,6 +135,7 @@ footer{
 .container3{
   display: flex;
   justify-content: flex-start;
+  background-color: #F1EFE8;
 }
 
 .tekstboksen3 h2{
@@ -173,7 +180,13 @@ footer{
 .tekstboksen4{
   display: flex;
   text-align: center;
+  background-color: #F1EFE8;
 }
+
+.row{
+  background-color: #F1EFE8;
+}
+
 .tekstboksen4 h2{
   width: 1000px;
   color: black;
@@ -187,19 +200,18 @@ footer{
 }
 
 .container4{
-display: flex;
-justify-content: center;
-margin: auto;
-margin-left: 5%;
-margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  background-color: #F1EFE8;
 }
 
 .container5{
   display: flex;
   justify-content: center;
   margin: auto;
-  margin-left: 9%;
-  margin-top: 5%;
+
+  background-color: #F1EFE8;
   }
 
 .spons img{
@@ -207,3 +219,61 @@ margin-top: 5%;
   margin-top: auto;
   padding: inherit;
 }
+
+
+/* footer */
+footer{
+  height: auto;
+  background-color: #172C49;
+}
+
+.container6{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.boksen{
+  display: flex;
+  flex-direction: column;
+  color: #FFF4F4;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.boksen .logo-footer{
+  width: 160px;
+  height: 100px;
+  padding-top: 60px;
+}
+
+.tilmeld{
+  width: 100%;
+  background-color: #C35C5C;
+  border-radius: 10px;
+}
+
+.cta3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px 25px;
+  color: #FFF4F4;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+
+.email{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px 25px;
+  width: 80%;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+/* footer */
