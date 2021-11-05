@@ -29,6 +29,19 @@
         </div>
       </div>
 
+      <div class="container9">
+        <div class="row2">
+          <h1> Tak for din støtte</h1>
+          <p> Det er vi rigitg glade for! 
+            <br>
+            <br>
+            -<b>HUSK!</b> du kan holde dig opdateret på hvad der sker inde under nyhed siden </p>
+            <img src="../img/check.PNG" alt="check">
+            <a href="index.html" class="knap-til-start"> Gå til start</a>
+          </div>
+        </div>
+      </div>
+
       <div class="container2">
 
         <div class="row">
@@ -80,11 +93,13 @@
 
                   </div>
                 </div>
-              <input class="send" type="submit" value="Send">
+              <a href="#" class="knap" id="send"> Send</a>
             </form>
           </div>
         </div>
       </div>
+
+
 
     <div class="container3">
       <div class="far">
@@ -171,7 +186,15 @@
         </div>
       </div>
     </footer>
+
+    <script>
+      document.getElementById("send").addEventListener("click", function() {
+        document.querySelector(".row2").style.display = "flex";
+        document.querySelector(".row").style.display = "none";
+      })
+    </script>
   </body>
+
 </html>
 
 <!--
