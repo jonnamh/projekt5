@@ -79,8 +79,22 @@
 
                   </div>
                 </div>
-              <input class="send" type="submit" value="Send">
+              <a href="#" class="knap" id="send"> Send</a>
             </form>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="container2">
+        <div class="row">
+          <h1> Tak for din tilmelding! </h1>
+          <p> Vi glæder os til rigtig meget til at se dig til næste klub møde!
+          <br>
+          <br>
+          -<b>HUSK!</b> du kan holde dig opdateret på vores chat funktion </p>
+          <img src="../img/check.PNG" alt="check">
+          <a href="../index.html.html" class="knap-til-start"> Gå til start</a>
           </div>
         </div>
       </div>
@@ -170,7 +184,14 @@
         </div>
       </div>
     </footer>
+
+    <script>
+      document.getElementById("send").addEventListener("click", function() {
+        document.querySelector(".popup").style.display = "flex";
+      })
+    </script>
   </body>
+
 </html>
 
 <!--

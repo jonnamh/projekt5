@@ -102,6 +102,52 @@ button:hover{
 
 /*slut*/
 
+
+
+.popup{
+  border-radius: 10px;
+  margin: auto;
+  width: 50%;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 75px;
+  padding: 100px;
+  margin-bottom: 100px;
+}
+
+
+.popup-indhold{
+  height: 550px;
+  width: 50%;
+  margin: auto;
+  background: #FFFFFF;
+  color: #00454E;
+  padding: 100px;
+  border-radius: 10px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.popup-indhold img{
+  width: 200px;
+}
+
+
+.popup .knap-til-start{
+  background: #00454E;
+  color: #EAEAEA;
+  width: max-content;
+  margin: auto;
+  padding: 10px 15px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
 .row{
   background-color: #405C84;
   border-radius: 10px;
@@ -221,6 +267,7 @@ input[type=submit]:hover {
   padding: 10px;
   font-family: poppins;
   color: #FFFFFF;
+  background-color: #F1EFE8;
 }
 
 .column {

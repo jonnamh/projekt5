@@ -67,11 +67,19 @@ button:hover{
 /* Nav bar slut*/
 
 /* Kommende video*/
+/* Kommende video*/
 .boks{
   width: 100%;
-  height: 600px;
-  background-color: #676767;
+  height: 400px;
+  z-index: 99;
 }
+/* kommende video slut */
+
+.boks video {
+    height: auto;
+    width: 100%;
+    z-index: 99;
+  }
 /* kommende video slut */
 
 /* infografik + tekstbokse */
