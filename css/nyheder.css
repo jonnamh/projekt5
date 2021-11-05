@@ -202,6 +202,11 @@ button2{
 
 }
 
+.container10{
+  display: none;
+  flex-direction: column;
+}
+
 footer{
   height: auto;
   background-color: #172C49
@@ -214,7 +219,6 @@ footer{
   justify-content: space-around;
   margin: auto;
 }
-
 
 
 .boksen{
