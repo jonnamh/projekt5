@@ -72,17 +72,6 @@ button:hover{
   justify-content: space-around;
 }
 
-.row{
-  background-color: #405C84;
-  border-radius: 10px;
-  margin: auto;
-  width: 75%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 75px;
-}
-
 .tekstboksen{
   width: 100%;
   height: 200px;
@@ -111,8 +100,76 @@ button:hover{
   font-size: 20px;
 }
 
+/*slut*/
+
+.row{
+  background-color: #405C84;
+  border-radius: 10px;
+  margin: auto;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 75px;
+  padding: 100px;
+  margin-bottom: 100px;
+}
+
+
+
+.kasse1 {
+  width: 150px;
+  height: 40px;
+  background-color: #284773;
+  float: left;
+  border-radius: 10px 0px 0px 10px;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  align-items: center;
+}
+
+.kasse2 {
+  width: 150px;
+  height: 40px;
+  background-color: #FFFFFF;
+  float: left;
+  border-radius: 0px 10px 10px 0px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  align-items: center;
+}
+
+.kasse3{
+  width: 150px;
+  height: 40px;
+  background-color: #284773;
+  float: left;
+  border-radius: 10px 0px 0px 10px;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  align-items: center;
+}
+
+.kasse4{
+  width: 150px;
+  height: 40px;
+  background-color: #FFFFFF;
+  float: left;
+  border-radius: 0px 10px 10px 0px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  align-items: center;
+}
+
+
 input[type=text], select, textarea {
-  width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
   margin-top: 6px;
@@ -140,6 +197,25 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
+.babba{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+.barn2{
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.send{
+  display: flex;
+  margin: auto;
+  padding-top: 30px;
+}
+
 .container2{
   border-radius: 5px;
   padding: 10px;
@@ -148,10 +224,14 @@ input[type=submit]:hover {
 }
 
 .column {
-  width: 75%;
+  display: flex;
+  flex-direction: column;
   margin-top: 6px;
   padding: 20px;
+  align-items: center;
+  justify-content: space-around;
 }
+
 
 .row:after {
   content: "";
@@ -263,18 +343,13 @@ footer{
   transition: all 0.3s ease 0s;
 }
 
-.inputBox{
-  width: 100%;
-  background-color: #C35C5C;
-  border-radius: 10px;
-}
 
 .email{
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 3px 25px;
-  color: #FFF4F4;
+  width: 80%;
   border: none;
   cursor: pointer;
   border-radius: 10px;
