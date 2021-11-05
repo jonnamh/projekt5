@@ -200,6 +200,53 @@ input[type=submit]:hover {
     align-items: center;
   }
 
+  .container3{
+    display: flex;
+    justify-content: center;
+    background-color: #C35C5C
+  }
+
+  .far{
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .barn{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .overskrift{
+    color: #FFF4F4;
+    display: flex;
+    align-content: center;
+    margin-left: 500px;
+  }
+
+  .tekst-boks1{
+    width: 350px;
+    padding: 10px 25px;
+    border-radius: 10px;
+    padding-bottom: 90px;
+    text-align: center;
+  }
+
+  .tekst-boks1 p{
+    color: #FFF4F4;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .tekst-boks1 h3{
+    color: #FFF4F4;
+  }
+
+
+
+
+
   footer{
     height: auto;
     background-color: #172C49
@@ -212,7 +259,6 @@ input[type=submit]:hover {
     justify-content: space-around;
     margin: auto;
   }
-
 
 
   .boksen{
