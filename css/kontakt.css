@@ -80,7 +80,7 @@ button:hover{
   align-items: center;
   justify-content: center;
   margin-top: 75px;
-  margin-bottom: 250px;
+  margin-bottom: 150px;
   padding-bottom: 13px;
 
 
@@ -198,6 +198,24 @@ input[type=submit]:hover {
     justify-content: center;
     font-size: 15px;
     align-items: center;
+  }
+
+  .lokation{
+    color: white;
+    padding: 18px;
+    font-size: 2.5rem;
+  }
+
+  .telefon{
+    color: white;
+    padding: 18px;
+    font-size: 2.5rem;
+  }
+
+  .kontortid{
+    color: white;
+    padding: 18px;
+    font-size: 2.5rem;
   }
 
   .container3{
