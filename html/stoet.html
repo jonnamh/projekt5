@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Retshjælpen Fyns støtteforening</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="../js/nyhedsbrev.js"></script>
     <link rel="stylesheet" href="../css/stoet.css">
   </head>
   <body>
@@ -25,6 +26,19 @@
           <h1>Har du lyst til at bidrage med et månedligt <br> eller
             give en donation til vores støtteforening? </h1>
           <p> Tag første skridt og udfyld formularen nedenfor! </p>
+        </div>
+      </div>
+
+      <div class="container9">
+        <div class="row2">
+          <h1> Tak for din støtte</h1>
+          <p> Det er vi rigitg glade for! 
+            <br>
+            <br>
+            -<b>HUSK!</b> du kan holde dig opdateret på hvad der sker inde under nyhed siden </p>
+            <img src="../img/check.PNG" alt="check">
+            <a href="index.html" class="knap-til-start"> Gå til start</a>
+          </div>
         </div>
       </div>
 
@@ -86,18 +100,6 @@
       </div>
 
 
-      <div class="container2">
-        <div class="row">
-          <h1> Tak for din tilmelding! </h1>
-          <p> Vi glæder os til rigtig meget til at se dig til næste klub møde!
-          <br>
-          <br>
-          -<b>HUSK!</b> du kan holde dig opdateret på vores chat funktion </p>
-          <img src="../img/check.PNG" alt="check">
-          <a href="../index.html.html" class="knap-til-start"> Gå til start</a>
-          </div>
-        </div>
-      </div>
 
     <div class="container3">
       <div class="far">
@@ -187,7 +189,8 @@
 
     <script>
       document.getElementById("send").addEventListener("click", function() {
-        document.querySelector(".popup").style.display = "flex";
+        document.querySelector(".row2").style.display = "flex";
+        document.querySelector(".row").style.display = "none";
       })
     </script>
   </body>

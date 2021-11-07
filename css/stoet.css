@@ -55,6 +55,7 @@ button{
   padding: 3px 25px;
   background-color: #C35C5C;
   border: none;
+  color: white;
   border-radius: 10px;
   cursor: pointer;
   transition: all 0.3s ease 0s;
@@ -162,6 +163,19 @@ button:hover{
   margin-bottom: 100px;
 }
 
+.row2{
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin: auto;
+  width: 50%;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 75px;
+  padding: 100px;
+  margin-bottom: 100px;
+}
 
 
 .kasse1 {
@@ -269,6 +283,24 @@ input[type=submit]:hover {
   color: #FFFFFF;
   background-color: #F1EFE8;
 }
+
+.container9{
+  border-radius: 5px;
+  padding: 10px;
+  font-family: poppins;
+  color: #FFFFFF;
+  background-color: #F1EFE8;
+}
+
+.container9 h1{
+  color: black;
+}
+
+.container9 p{
+  color: black;
+}
+
+
 
 .column {
   display: flex;
