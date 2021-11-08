@@ -278,12 +278,16 @@ footer{
   border-radius: 10px;
 }
 
-.voresbestyrelse1{
+.billederne{
   display: flex;
-  text-align: center;
-  height: 350px;
-  width: 300px;
-  padding-left: 300px;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 50px 300px;
+}
+
+.voresbestyrelse1{
+  height: 325px;
+  width: 250px;
 }
 
 .voresbestyrelse2 {
