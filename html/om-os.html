@@ -23,8 +23,11 @@
 
     <main>
       <div class="boks">
-          <video controls autoplay loop>
-        <source src="../video/bannervideo1.mp4" type="video/mp4">
+          <video autoplay muted loop>
+        <source src="../video/video2.mp4" type="video/mp4" loop autoplay>
+          <script>
+    document.getElementById('vid').play();
+</script>
       </video>
         </div>
     <div class="container">
@@ -166,12 +169,12 @@
       </footer>
     </footer>
 
-<BUTTON TYPE="button" ONCLICK="confirmFunction()">Klik på mig!</BUTTON>
+<BUTTON TYPE="button" id="knap" ONCLICK="confirmFunction()">Klik på mig!</BUTTON>
 
 <SCRIPT>
 function confirmFunction() {
     if (confirm("Var denne side nyttig?") == true) {
-        document.getElementById("ColorChanger").style.backgroundColor = "red";
+        document.getElementById("knap").style.backgroundColor = "green";
     }
 }
 </SCRIPT>
