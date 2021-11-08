@@ -72,14 +72,12 @@ button:hover{
 .boks{
   width: 100%;
   height: 400px;
-  z-index: 99;
 }
 /* kommende video slut */
 
 .boks video {
     height: auto;
     width: 100%;
-    z-index: 99;
   }
 /* kommende video slut */
 
