@@ -48,20 +48,20 @@ header{
   color: #5E88BF;
   }
 
-button{
+.sendklik{
   font-weight: bold;
-  margin-left: 20px;
   padding: 3px 25px;
-  background-color: #C35C5C;
+  background-color: #FFFFFF;
   border: none;
-  color: white;
+  color: #405C84;
   border-radius: 10px;
   cursor: pointer;
   transition: all 0.3s ease 0s;
+  font-size: 15px;
   }
 
-button:hover{
-  background-color: #C15353;
+.sendklik:hover{
+  background-color: #F1EFE8;
   }
 
 
