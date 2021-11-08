@@ -5,7 +5,9 @@
     <title>Retshjælpen Fyns støtteforening</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../css/om-os.css">
-    <script src="../js/nyhedsbrev.js"></script>
+    <script src="../js/nyhedsbrev.js" defer ></script>
+    <script src="../js/nyheder.js" defer ></script>
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
   </head>
   <body>
@@ -92,27 +94,25 @@
       </div>
     </div>
 
-    <!--------------------billeder af medarbejder--------------------->
-
-    <!-- Photo Grid -->
-    <div class="row">
-      <div class="column">
         <div class="tekstboksen4">
+
           <h2>Vores samarbejdspartnere</h2>
+
+        </div>
+        <div class="billederne">
+
+          <img class="voresbestyrelse1" src="../img/billede1oliver.png" alt="logo">
+          <img class="voresbestyrelse1" src="../img/billede2jonna.png" alt="logo">
+        </div>
+
+          <h2>Vores bestyrelse</h2>
         </div>
 
 
-        <img class="voresbestyrelse1" src="../img/image1.jpg" alt="logo">
-
-        <img class="voresbestyrelse2" src="../img/image4.jpg" alt="logo">
-
 
         <div class="tekstboksen4">
-          <h2>Vores samarbejdspartnere</h2>
+          <h2>Mød de frivillige</h2>
         </div>
-        <img src="../img/image2.jpg" style="width:20%">
-        <img src="../img/image3.jpg" style="width:20%">
-      </div>
     </div>
     </main>
 
@@ -169,10 +169,8 @@
 <SCRIPT>
 function confirmFunction() {
     if (confirm("Var denne side nyttig?") == true) {
-        document.getElementById("ColorChanger").style.backgroundColor = "green";
-    } else {
-        document.getElementById("ColorChanger").style.backgroundColor = "#C0C0C0";
-    }
+        document.getElementById("ColorChanger").style.backgroundColor = "red";
+    } 
 }
 </SCRIPT>
 
