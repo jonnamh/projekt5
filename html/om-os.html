@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../css/om-os.css">
     <script src="../js/nyhedsbrev.js" defer ></script>
-    <script src="../js/nyheder.js" defer ></script>
-
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
   </head>
   <body>
@@ -24,7 +22,14 @@
     </header>
 
     <main>
-
+      <div class="boks">
+          <video autoplay muted loop>
+        <source src="../video/video2.mp4" type="video/mp4" loop autoplay>
+          <script>
+    document.getElementById('vid').play();
+</script>
+      </video>
+        </div>
     <div class="container">
       <div class="tekstboksen">
         <h1>Om os</h1>
@@ -96,7 +101,7 @@
 
         <div class="tekstboksen4">
 
-          <h2>Vores samarbejdspartnere</h2>
+          <h2>Vores bestyrelse</h2>
 
         </div>
         <div class="billederne">
@@ -105,13 +110,13 @@
           <img class="voresbestyrelse1" src="../img/billede2jonna.png" alt="logo">
         </div>
 
-          <h2>Vores bestyrelse</h2>
+  <div class="tekstboksen4">
+          <h2>Mød vores frivillige</h2>
         </div>
+        <div class="billederne">
 
-
-
-        <div class="tekstboksen4">
-          <h2>Mød de frivillige</h2>
+          <img class="voresbestyrelse1" src="../img/billede2laura.png" alt="logo">
+          <img class="voresbestyrelse1" src="../img/billede1malthe.png" alt="logo">
         </div>
     </div>
     </main>
@@ -157,20 +162,20 @@
             </div>
             <br>
             <div class="tilmeld">
-              <a class="cta3" href="a"> Tilmeld </a>
+            <a class="cta3" onclick="pindsvin()"> Tilmeld </a>
             </div>
           </div>
         </div>
       </footer>
     </footer>
 
-<BUTTON TYPE="button" ONCLICK="confirmFunction()">Klik på mig!</BUTTON>
+<BUTTON TYPE="button" id="knap" ONCLICK="confirmFunction()">Klik på mig!</BUTTON>
 
 <SCRIPT>
 function confirmFunction() {
     if (confirm("Var denne side nyttig?") == true) {
-        document.getElementById("ColorChanger").style.backgroundColor = "red";
-    } 
+        document.getElementById("knap").style.backgroundColor = "green";
+    }
 }
 </SCRIPT>
 
