@@ -46,7 +46,7 @@
     <div class="container3">
       <img class="omosbillede2" src="../img/hunor.png" alt="logo">
       <div class="tekstboksen3">
-        <h2>Vores mission</h2>
+      <h2>Vores mission</h2>
         <p>Vores mission er at forbinde Retshjælpen Fyn med så mange ressourcer
            og så bredt et netværk som muligt og derved hjælpe så mange som muligt. </p>
 
@@ -164,6 +164,19 @@
       </footer>
     </footer>
 
+<BUTTON TYPE="button" ONCLICK="confirmFunction()">Klik på mig!</BUTTON>
+
+<SCRIPT>
+function confirmFunction() {
+    if (confirm("Var denne side nyttig?") == true) {
+        document.getElementById("ColorChanger").style.backgroundColor = "green";
+    } else {
+        document.getElementById("ColorChanger").style.backgroundColor = "#C0C0C0";
+    }
+}
+</SCRIPT>
+
+</script>
   </body>
 
 </html>
