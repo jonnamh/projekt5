@@ -143,7 +143,7 @@ footer{
   font-size: 25px;
   font-family: poppins;
   margin-top: 50px;
-  margin-right: 674px;
+  margin-right: 701px;
   text-decoration: underline;
   float: right;
 
@@ -277,4 +277,23 @@ footer{
   cursor: pointer;
   border-radius: 10px;
 }
+
+.voresbestyrelse1{
+  display: flex;
+  text-align: center;
+  height: 350px;
+  width: 300px;
+  padding-left: 300px;
+}
+
+.voresbestyrelse2 {
+  display: flex;
+  text-align: center;
+  height: 350px;
+  width: 300px;
+  padding-left: 700px;
+  margin-bottom: 800px;
+}
+
+
 /* footer */
