@@ -166,12 +166,12 @@
       </footer>
     </footer>
 
-<BUTTON TYPE="button" ONCLICK="confirmFunction()">Klik på mig!</BUTTON>
+<BUTTON TYPE="button" id="knap" ONCLICK="confirmFunction()">Klik på mig!</BUTTON>
 
 <SCRIPT>
 function confirmFunction() {
     if (confirm("Var denne side nyttig?") == true) {
-        document.getElementById("ColorChanger").style.backgroundColor = "red";
+        document.getElementById("knap").style.backgroundColor = "green";
     }
 }
 </SCRIPT>
