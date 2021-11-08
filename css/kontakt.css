@@ -295,6 +295,12 @@ input[type=submit]:hover {
     margin: auto;
   }
 
+  .facebook{
+    color: #FFF4F4;
+    font-weight: regular 400;
+  }
+
+
 
   .boksen{
     display: flex;

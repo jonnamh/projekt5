@@ -288,6 +288,12 @@ footer{
   border-radius: 10px;
 }
 
+.facebook{
+  color: #FFF4F4;
+  font-weight: regular 400;
+}
+
+
 
 .billederne{
   display: flex;
