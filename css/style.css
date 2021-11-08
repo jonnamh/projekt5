@@ -193,9 +193,10 @@ button:hover{
   height: auto;
   width: 500px;
   padding: 60px 90px 60px 90px;
-  display: flex; 
+  display: flex;
   flex-direction: column;
   align-items: center;
+
 }
 .stoet h1{
   margin: auto;
