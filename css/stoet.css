@@ -186,6 +186,18 @@ button:hover{
   background-color: #ffffff;
 }
 
+#send{
+  font-weight: bold;
+  padding: 3px 25px;
+  background-color: #FFFFFF;
+  border: none;
+  color: #405C84;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  font-size: 15px;
+}
+
 .kasse1 {
   width: 150px;
   height: 40px;
