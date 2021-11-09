@@ -141,8 +141,6 @@ footer{
   line-height: 35px;
   text-align: justify;
   text-justify: inter-word;
-  margin-top: 3%;
-
 }
 
 /*anden boks med nyhed*/
@@ -155,8 +153,8 @@ footer{
 .tekstboksen3 h2{
   font-size: 25px;
   font-family: poppins;
-  margin-top: 50px;
-  margin-right: 701px;
+  margin-top: 75px;
+  margin-right: 690px;
   text-decoration: underline;
   float: right;
 
@@ -171,7 +169,6 @@ footer{
   text-align: justify;
   text-justify: inter-word;
   float: right;
-  margin-top: 4%;
 }
 
 .omosbillede2{

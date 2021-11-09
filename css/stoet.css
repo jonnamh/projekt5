@@ -379,11 +379,9 @@ input[type=submit]:hover {
 
 .overskrift{
   color: #FFF4F4;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  margin-left: 500px;
+  text-align: center;
 }
+
 
 .tekst-boks1{
   width: 350px;
